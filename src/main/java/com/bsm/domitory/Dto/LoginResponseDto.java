@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class LoginRespoinseDto {
+public class LoginResponseDto {
     private String token;
     private int expiredTime;
 }
