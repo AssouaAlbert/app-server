@@ -1,0 +1,23 @@
+package com.bsm.domitory.Entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.*;
+
+@Entity(name = "users")
+@Table(name = "users")
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class UserEntity {
+    @Id
+    private String userId;
+    private String userName;
+    private String userNumber;
+    private String password;
+    private int roomNumber;
+    private String accessToken;
+    private String refreshToken;
+}
