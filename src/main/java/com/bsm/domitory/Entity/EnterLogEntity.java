@@ -17,9 +17,9 @@ import java.util.Date;
 public class EnterLogEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int logId;
+    private Long logId;
     private String userName;
     private Date enterDate;
-    private int userNumber;
-    private int roomNumber;
+    private Integer userNumber;
+    private Long roomNumber;
 }

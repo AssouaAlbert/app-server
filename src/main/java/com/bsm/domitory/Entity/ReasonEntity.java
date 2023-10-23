@@ -14,10 +14,10 @@ import java.util.Date;
 public class ReasonEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int reasonId;
+    private Long reasonId;
     private String userName;
     private String title;
     private String content;
-    private int roomNuber;
+    private Long roomNuber;
     private Date enterDate;
 }
