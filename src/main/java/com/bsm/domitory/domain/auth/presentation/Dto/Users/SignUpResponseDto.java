@@ -1,4 +1,4 @@
-package com.bsm.domitory.Dto.Users;
+package com.bsm.domitory.domain.auth.presentation.Dto.Users;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;

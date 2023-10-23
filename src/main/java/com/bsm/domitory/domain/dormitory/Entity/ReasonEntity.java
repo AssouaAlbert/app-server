@@ -1,4 +1,4 @@
-package com.bsm.domitory.Entity;
+package com.bsm.domitory.domain.dormitory.Entity;
 
 import jakarta.persistence.*;
 import lombok.*;

@@ -1,4 +1,4 @@
-package com.bsm.domitory.Dto.Admin;
+package com.bsm.domitory.domain.auth.presentation.Dto.Admin;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;

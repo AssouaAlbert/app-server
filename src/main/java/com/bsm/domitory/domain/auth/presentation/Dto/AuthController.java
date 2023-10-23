@@ -1,7 +1,7 @@
-package com.bsm.domitory.Controller;
+package com.bsm.domitory.domain.auth.presentation.Dto;
 
-import com.bsm.domitory.Dto.Users.SignInRequestDto;
-import com.bsm.domitory.Entity.UserEntity;
+import com.bsm.domitory.domain.auth.presentation.Dto.Users.SignInRequestDto;
+import com.bsm.domitory.domain.auth.Entity.UserEntity;
 import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
