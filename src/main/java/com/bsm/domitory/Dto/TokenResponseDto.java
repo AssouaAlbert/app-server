@@ -1,4 +1,4 @@
-package com.bsm.domitory.Dto.Response;
+package com.bsm.domitory.Dto;
 
 import lombok.*;
 
