@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class AuthController {
     @PostMapping("/login")
-    public UserEntity login(@RequestBody @Valid SignInRequestDto dto) {
+    public String login(@RequestBody @Valid SignInRequestDto signInRequestDto) {
         return null;
     }
 }

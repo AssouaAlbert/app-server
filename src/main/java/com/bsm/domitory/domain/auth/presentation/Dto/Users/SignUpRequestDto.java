@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class SignUpResponseDto {
+public class SignUpRequestDto {
     @NotBlank(message = "아이디가 입력되지 않았습니다")
     private String userId;
     @NotBlank(message = "비밀번호가 입력되지 않았습니다")
