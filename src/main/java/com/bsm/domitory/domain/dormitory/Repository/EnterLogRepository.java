@@ -6,4 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface EnterLogRepository extends JpaRepository<EnterLogEntity, Integer> {
+
 }
