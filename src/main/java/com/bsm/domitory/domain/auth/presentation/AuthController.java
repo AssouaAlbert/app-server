@@ -1,4 +1,4 @@
-package com.bsm.domitory.domain.auth.presentation.Dto;
+package com.bsm.domitory.domain.auth.presentation;
 
 import com.bsm.domitory.domain.auth.presentation.Dto.Users.SignInRequestDto;
 import com.bsm.domitory.domain.auth.Entity.UserEntity;
