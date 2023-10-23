@@ -17,7 +17,7 @@ public class UserEntity {
     private String userName;
     private String userNumber;
     private String password;
-    private int roomNumber;
+    private Long roomNumber;
     private String accessToken;
     private String refreshToken;
 }
