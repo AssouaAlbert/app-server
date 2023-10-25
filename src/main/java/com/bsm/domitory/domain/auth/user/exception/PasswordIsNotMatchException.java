@@ -1,4 +1,4 @@
-package com.bsm.domitory.domain.auth.user.auth.exception;
+package com.bsm.domitory.domain.auth.user.exception;
 
 import com.bsm.domitory.global.exception.GlobalException;
 import org.springframework.http.HttpStatus;

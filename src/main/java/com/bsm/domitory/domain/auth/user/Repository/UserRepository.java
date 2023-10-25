@@ -1,6 +1,6 @@
-package com.bsm.domitory.domain.auth.user.auth.Repository;
+package com.bsm.domitory.domain.auth.user.Repository;
 
-import com.bsm.domitory.domain.auth.user.auth.Entity.UserEntity;
+import com.bsm.domitory.domain.auth.user.Entity.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

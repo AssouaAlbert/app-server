@@ -1,4 +1,4 @@
-package com.bsm.domitory.domain.auth.user.auth.Entity;
+package com.bsm.domitory.domain.auth.user.Entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
