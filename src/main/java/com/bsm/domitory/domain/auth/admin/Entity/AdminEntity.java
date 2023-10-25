@@ -1,4 +1,4 @@
-package com.bsm.domitory.domain.auth.Entity;
+package com.bsm.domitory.domain.auth.admin.Entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -19,6 +19,7 @@ public class AdminEntity {
     private String adminId;
     private String adminName;
     private String adminPassword;
+    private String role;
     private String accessToken;
     private String refreshToken;
 }

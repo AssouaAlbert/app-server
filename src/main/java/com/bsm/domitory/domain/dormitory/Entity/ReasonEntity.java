@@ -18,6 +18,6 @@ public class ReasonEntity {
     private String userName;
     private String title;
     private String content;
-    private Long roomNuber;
+    private Long roomNumber;
     private Date enterDate;
 }
