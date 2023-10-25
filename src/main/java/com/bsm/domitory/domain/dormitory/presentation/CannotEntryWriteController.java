@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 public class CannotEntryWriteController {
     // 입사 불가 이유 작성 API
     @PostMapping("/not/entry/reason/write")
-    public ReasonEntity reasonWrite(@RequestBody ReasonRequestDto dto) {
+    public ReasonEntity reasonWrite(@RequestBody ReasonRequestDto reasonRequestDto) {
         return null;
     }
 }
