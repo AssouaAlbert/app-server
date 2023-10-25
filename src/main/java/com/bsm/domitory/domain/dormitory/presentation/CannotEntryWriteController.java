@@ -1,4 +1,4 @@
-package com.bsm.domitory.domain.dormitory.presentation.user;
+package com.bsm.domitory.domain.dormitory.presentation;
 
 import com.bsm.domitory.domain.dormitory.Entity.ReasonEntity;
 import com.bsm.domitory.domain.dormitory.presentation.Dto.ReasonRequestDto;
